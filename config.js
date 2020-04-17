@@ -2,7 +2,7 @@ const providers = ['twitter', 'google', 'facebook', 'github']
 
 const callbacks = providers.map(provider => {
   return process.env.NODE_ENV === 'production'
-    ? `https://react-auth-twitter.herokuapp.com/${provider}/callback`
+    ? `https://trackfree247.com/${provider}/callback`
     : `https://localhost:8080/${provider}/callback`
 })
 
